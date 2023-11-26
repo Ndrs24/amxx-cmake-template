@@ -25,12 +25,12 @@
  * -For both library and library class, you can use a comma
  *   to add multiple entries.
  */
-#define MODULE_NAME "TestName"
-#define MODULE_VERSION "1.1.1"
-#define MODULE_AUTHOR "TestAAuthor"
-#define MODULE_URL "TestUrl"
-#define MODULE_LOGTAG "TestLogTag"
-#define MODULE_LIBRARY "testlib"
+#define MODULE_NAME "ExampleName"
+#define MODULE_VERSION "0.0.1"
+#define MODULE_AUTHOR "ExampleAuthor"
+#define MODULE_URL "ExampleUrl"
+#define MODULE_LOGTAG "ExampleLogTag"
+#define MODULE_LIBRARY "examplelib"
 #define MODULE_LIBCLASS ""
 // If you want the module not to be reloaded on mapchange, remove / comment out the next line
 #define MODULE_RELOAD_ON_MAPCHANGE
@@ -52,7 +52,7 @@
 
 // Unless you use STL or exceptions, keep this commented.
 // It allows you to compile without libstdc++.so as a dependency
-#define NO_ALLOC_OVERRIDES
+// #define NO_ALLOC_OVERRIDES
 
 // Uncomment this if you are using MSVC8 or greater and want to fix some of the compatibility issues yourself
 // #define NO_MSVC8_AUTO_COMPAT

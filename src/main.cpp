@@ -1,6 +1,9 @@
+#define WIN32
+#define HAVE_STDINT_H
+
 #include "amxxmodule.h"
 
 void OnPluginsLoaded()
 {
-    MF_Log("Esta es mi prueba desde cmake");
+    MF_Log("Hello world");
 }
